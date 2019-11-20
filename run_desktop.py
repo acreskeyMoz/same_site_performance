@@ -23,7 +23,7 @@ def cleanUrl(url):
     return cleanUrl
 
 host_ip = '192.168.86.180'
-iterations = '50'
+iterations = '5'
 
 firefox_args = '--firefox.preference dom.performance.time_to_first_interactive.enabled:true '
 browsertime_path = 'node ../bin/browsertime.js  '
